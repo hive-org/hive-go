@@ -2,9 +2,9 @@ package hive_go
 
 import (
 	"fmt"
+	"github.com/patrickmn/go-cache"
 	uuid "github.com/satori/go.uuid"
 	"google.golang.org/protobuf/proto"
-	"github.com/patrickmn/go-cache"
 	"io/ioutil"
 	"net/http"
 	"time"

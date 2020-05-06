@@ -1,4 +1,4 @@
-module hive-go
+module github.com/hive-org/hive-go
 
 go 1.14
 
