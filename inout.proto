@@ -1,0 +1,19 @@
+syntax = "proto3";
+package hive;
+option go_package = ".;hive";
+
+message SecretResponse {
+    bytes id = 1;
+    int64 created = 2;
+    bytes value = 3;
+}
+
+message GetSecretResponseV1 {
+    SecretResponse data = 1;
+}
+
+message SecretCreatedV1 {
+    bytes id = 1;
+    int64 created = 2;
+    bytes value = 3;
+}
